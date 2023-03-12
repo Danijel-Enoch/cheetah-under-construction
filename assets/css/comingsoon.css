@@ -7,6 +7,14 @@ div {
     font-family: "Abel", sans-serif !important;
 }
 
+
+body{
+    
+}
+
+.text-color{
+    color: #9D00F8;
+}
 p,
 b {
     font-size: x-large;
@@ -16,3 +24,37 @@ b {
 .footer-copyright {
     bottom: 0 !important;
 }
+.card{
+    margin: 10px auto;
+    box-shadow: 0px 2px 4px 0 rgba(0,0,0,0.2);
+    border-radius: 6px;
+    height: 100%;
+    transition: 0.3s;
+  }
+.card:hover {
+  box-shadow: 1px 10px 16px 0 rgba(0,0,0,0.3);
+}
+  .card-title{
+    text-align: center;
+    color: #666666;
+    font-weight: bold;
+  }
+  .card-text{
+        font-weight: 500;
+  color: #66686b;
+  }
+  .card-image{
+    text-align: center;
+    margin: 5vh 0;
+  }
+  .card-text{
+    text-align: center;
+  }
+
+  .title-heading{
+    font-size: 3em;
+    text-align: center;
+    margin: 4%;
+    font-weight: bold;
+
+  }
